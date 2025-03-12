@@ -1,0 +1,16 @@
+$sizes: sm 8px, normal 16px, md 24px, lg 32px, xl 48px, xxl 64px;
+
+@mixin spacing($type) {
+    @each $name, $value in $sizes {
+        .#{$type}-block-#{$name} {
+            #{$type}-block: $value;
+        }
+
+        .#{$type}-inline-#{$name} {
+            #{$type}-inline: $value;
+        }
+    }
+}
+
+@include spacing(margin);
+@include spacing(padding);

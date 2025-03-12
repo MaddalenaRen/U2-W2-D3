@@ -1,0 +1,9 @@
+//font
+
+$font-primary: Helvetica, Arial, sans-serif;
+
+@mixin title-big {
+    font-size: 3rem;
+    font-weight: bold;
+
+}

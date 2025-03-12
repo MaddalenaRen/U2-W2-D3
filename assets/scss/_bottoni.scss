@@ -1,0 +1,29 @@
+.btn-primary {
+    background-color: $button-primary;
+    color: $text-color;
+
+    &:hover {
+        background-color: red;
+        color: black;
+    }
+}
+
+.btn-secondary {
+    background-color: $button-secondary;
+    color: $text-color;
+
+    &:hover {
+        background-color: red;
+        color: black;
+    }
+}
+
+.btn-success {
+    background-color: $button-success;
+    color: $text-color;
+
+    &:hover {
+        background-color: red;
+        color: black;
+    }
+}
